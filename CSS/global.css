@@ -185,15 +185,15 @@ footer {
     color: var(--color-white);  
 }
 
-.footer-content {
-    margin-top: 15%;
+.container-footer {
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-} .footer-content a {
+} .container-footer a {
     color: var(--color-white);
     text-decoration: none;
-} .footer-content a:hover {
+} .container-footer a:hover {
     color: #d0d0dc;
     text-decoration: none;
 }
