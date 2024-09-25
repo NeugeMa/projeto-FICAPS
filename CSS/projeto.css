@@ -1,0 +1,102 @@
+/* ----------------------------- */
+/* -- CONSTRUÇÃO CONTEÚDO DESAFIOS -- */
+.conteudo-desafio {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.impacto-carrosel {
+    width: 80%;
+    margin: 0 auto; 
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------------------------- */
+/* -- CONSTRUÇÃO CONTEÚDO SOLUÇÃO -- */
+.conteudo-solucao {
+    padding-left: 50px;
+    padding-top: 30px;
+
+    margin-top: 30px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+} .flex-container img {
+    width: 250px;
+} 
+
+
+.conteudo-solucao02 {
+    margin-top: 20px;
+} .flex-container02 {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  
+} .flex-container02 p {
+    margin-right: 50px;
+}
+
+.vídeo {
+    background-color: grey; 
+    width: 150%;
+    height: 200px;
+
+    margin-right: 50px;
+} 
+
+.conteudo-solucao02 a {
+    text-decoration: none;
+    color: var(--color-darkblue);
+    font-weight: 900;
+} .conteudo-solucao02 a:hover {
+    text-decoration: none;
+    color: var(--color-darkblue);
+    font-weight: 900;
+}
+
+/* ----------------------------- */
+/* -- CONTEÚDO DESTAQUE -- */
+.projeto-destaque {
+    width: 80%;
+    margin: 80px auto;
+}
+.titulo {
+    text-align: center;
+} .titulo h1 {
+    font-size: 4vmin;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+} .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.col img {
+    margin-top: 30px;
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.col h4 {
+    font-size: 3vmin;
+    margin: 10px auto;
+}
