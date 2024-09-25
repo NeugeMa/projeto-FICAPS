@@ -122,7 +122,7 @@ header {
     font-size: 4vmin;
 } .header-content h1 {
     font-size: 7vmin;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -177,15 +177,25 @@ header {
 
 /* ----------------------------- */
 /* -- CONSTRUÇÃO RODAPÉ -- */
-.container-footer {
+footer {
+    width: 100vw;
+    height: 15vh;
+
     background-color: #0c1c59;
     color: var(--color-white);  
 }
 
-.footer-page {
-    margin-top: 30px;
-} .footer-page a {
+.footer-content {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} .footer-content a {
     color: var(--color-white);
+    text-decoration: none;
+} .footer-content a:hover {
+    color: #d0d0dc;
+    text-decoration: none;
 }
 
 .footer-img {

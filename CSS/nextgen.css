@@ -1,0 +1,43 @@
+header {
+    width: 100vw;
+    height: 80vh;
+    /* background-image: url(/IMG/SVG/fundo.jpg); */ 
+    background-color: grey;
+    background-position: bottom;
+    background-size: cover;
+}
+
+/* --------- */
+/* Conteúdo Introdução + Dicas */
+.intro-content {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.tela {
+    width: 100vw;
+    height: 60vh;
+    background-color: grey;
+} 
+
+.tecnologia {
+    width: 100%;
+    height: 50vh; /* Utilizar 100vh quando estiver utilizando uma imagem */ 
+    background-color: grey;
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.tecnologia-content {
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+}
+
+.tecnologia-content h1 {
+    font-size: 5vmin;
+}   .tecnologia-content p {
+        margin-top: 20px;
+    }
