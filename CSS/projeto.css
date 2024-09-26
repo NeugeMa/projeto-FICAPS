@@ -1,4 +1,10 @@
 /* ----------------------------- */
+:root {
+    --color-blue: #03038e;
+    --color-blue-transition: #0909c4; 
+    --color-white: #f5f5f5;
+}
+
 /* -- CONSTRUÇÃO CONTEÚDO DESAFIOS -- */
 .conteudo-desafio {
     padding-left: 50px;
@@ -17,48 +23,31 @@
 
 /* ----------------------------- */
 /* -- CONSTRUÇÃO CONTEÚDO SOLUÇÃO -- */
-.conteudo-solucao {
-    padding-left: 50px;
-    padding-top: 30px;
-
-    margin-top: 30px;
+.conteudo-principal {
+    margin-top: 100px;
+    width: 100%;
+    height: 60vh; /* Utilizar 100vh quando estiver utilizando uma imagem */ 
+    background-color: grey;
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
 
-.flex-container {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-} .flex-container img {
-    width: 250px;
-} 
+.principal-content {
+    color: var(--color-white);
+    width: 60%;
+    padding: 50px;
+}
 
+.principal-content h1 {
+    font-size: 7vmin;
+} .principal-content h4 {
+    color: var(--color-blue)
+}
 
-.conteudo-solucao02 {
+.principal-content p {
     margin-top: 20px;
-} .flex-container02 {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;  
-} .flex-container02 p {
-    margin-right: 50px;
-}
-
-.vídeo {
-    background-color: grey; 
-    width: 150%;
-    height: 200px;
-
-    margin-right: 50px;
-} 
-
-.conteudo-solucao02 a {
-    text-decoration: none;
-    color: var(--color-darkblue);
-    font-weight: 900;
-} .conteudo-solucao02 a:hover {
-    text-decoration: none;
-    color: var(--color-darkblue);
-    font-weight: 900;
 }
 
 /* ----------------------------- */
@@ -70,28 +59,25 @@
 .titulo {
     text-align: center;
 } .titulo h1 {
-    font-size: 4vmin;
+    font-size: 5vmin;
 }
 
 .row {
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 
 .row .col {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-} .col {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .col img {
     margin-top: 30px;
-    width: 40%;
+    width: 25%;
     height: 100%;
     border-radius: 10px;
 }
@@ -100,3 +86,33 @@
     font-size: 3vmin;
     margin: 10px auto;
 }
+
+/* -- CONTEÚDO CURIOSIDADES -- */
+.curiosidades {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.card {
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.card-curiosidade {
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+} 
+
+.hidden {
+    display: none;
+}
+
+.content-section {
+    margin: 30px 0;
+}
+
+
+
+

@@ -47,7 +47,7 @@
     </header>
 
     <section class="conteudo-desafio">
-        <h2>Desafio: Popularizar a Fórmula E, trazendo maior visibilidade ao público.</h2>
+        <h1>Desafio: Popularizar a Fórmula E, trazendo maior visibilidade ao público.</h1>
         <p> Devemos criar uma estrátegia que tem como seu objetivo proporcionar aos usuários uma maior gama de
             interações, que possuem um incentivo maior a novos públicos ao consumo dá fórmula e.</p>
 
@@ -95,37 +95,100 @@
         </div>
     </section>
 
-    <main class="conteudo-solucao">
-        <h2> Solução: O desenvolvimento de Futuros Velocistas. </h2>
-        <div class="flex-container">
-            <div class="logo-ficaps">
-                <img src="/img/ficapslogo.png" alt="Logo representante do projeto - ficaps">
-            </div>
-            <p> Nossa solução envolve envolve cativar as pessoas a verem como é interessante a parte elétrica dos
-                motores, faremos isso por meio de carrinhos feitos com auxílio do arduino, por meio desses carrinhos
-                as pessoas poderão competir entre si.
-                Desenvolvendo junto disso stands de apresentação com foco em corridas utilizando dos carrinhos de
-                arduino como forma de cativar e competir com o público.
-            </p>
-        </div>
+    <main class="conteudo-principal" id="conteudo-principal">
+        <div class="principal-content">
+            <div class="text-content">
+                <h4>Solução FICAPS</h4>
+                <h1>Futuros Velocistas</h1>
 
-        <div class="conteudo-solucao02">
-            <div class="flex-container02">
-                <p>Os carrinhos feitos com arduino seriam mais focados no <span class="destaque"> público
-                        jovem/infantil </span>, incentivando jovens e não somente o público mais velho a se
-                    interessarem pelo esporte e terem curiosidade sobre ele. Esse projeto também será voltado para
-                    pessoas com alguma deficiência como transtorno do espectro autista já que os carros por serem
-                    elétricos possuem o barulho do motor mais baixo (pessoas com essa deficiência normalmente são
-                    sensíveis a barulhos muito altos).
-                </p>
+                <p>Nossa solução envolve envolve cativar as pessoas a verem como é interessante a parte elétrica dos motores, faremos isso por meio de carrinhos feitos com auxílio do arduino, por meio desses carrinhos as pessoas poderão competir entre si. Desenvolvendo junto disso stands de apresentação com foco em corridas utilizando dos carrinhos de arduino como forma de cativar e competir com o público. </p>
 
-                <div class="vídeo">
-                    <!-- VÍDEO EXPLICATIVO (tentar fazer/pegar da net)-->
-                </div>
+                <p>Os carrinhos feitos com arduino seriam mais focados no público jovem/infantil , incentivando jovens e não somente o público mais velho a se interessarem pelo esporte e terem curiosidade sobre ele. Esse projeto também será voltado para pessoas com alguma deficiência como transtorno do espectro autista já que os carros por serem elétricos possuem o barulho do motor mais baixo (pessoas com essa deficiência normalmente são sensíveis a barulhos muito altos). </p>
             </div>
-            <a href="#"> Tinkercad-Solução </a>
         </div>
     </main>
+
+    <section class="projeto-destaque">
+        <div class="titulo">
+            <h1>Carrinhos Arduinos</h1>
+            <div class="linha"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="./IMG/arduino.png" alt="Imagem carro fórmula E">
+                <h4>Arduino x Fórmula E</h4>
+                <p>Entenda toda nossa dinâmica de criação com este vídeo sobre.</p>
+                <a href="https://www.youtube.com/embed/HjjLJPkaGhc" class="btn-saiba">Veja Mais</a>
+            </div>
+    </section>
+
+    <section>
+        <div class="curiosidades">
+            <h4>Conheça alguns fatos, sobre:</h4>
+                <p>Este projeto apresenta uma abordagem inovadora para cativar diversos públicos, incentivando o interesse pela parte elétrica dos motores e, ao mesmo tempo, promovendo inclusão e entretenimento. A seguir, conheça mais possibilidades de desenvolvimento e ampliação desse conceito.</p>
+
+                <div class="dropdown-container">
+                    <select id="contentDropdown" onchange="switchContent()">
+                        <option value="section0">Selecione para saber!</option>
+                        <option value="section1">Educação Tecnológica e Eletrônica</option>
+                        <option value="section2">Gamificação e Competições</option>
+                        <option value="section3">Inclusão e Acessibilidade</option>
+                        <option value="section4">Sustentabilidade e Conscientização</option>
+                    </select>
+                </div>
+
+                <div id="section0" class="content-section"></div>
+            
+                <div id="section1" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                                <h5 class="card-title">Educação Tecnológica e Eletrônica</h5>
+                                <p class="card-text">Os carrinhos controlados por Arduino têm um grande potencial educacional. Ao adicionar uma camada de aprendizado, você pode criar oficinas interativas, onde os jovens aprendem desde a programação básica até conceitos de eletrônica e robótica. </p>
+
+                                <p>Isso poderia ser expandido para incluir kits DIY (faça você mesmo), onde os participantes montam seus próprios carrinhos, aprendendo conceitos importantes de eletrônica, programação e design mecânico.</p>
+                            </div>
+                    </div>
+                </div>
+
+
+                <div id="section2" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Gamificação e Competições</h5>
+                            <p class="card-text">Para tornar as corridas mais atrativas, você pode implementar gamificação, como pontuação por desempenho, desafios específicos, e até mesmo um sistema de evolução onde os participantes possam customizar e melhorar os carros. Isso atrairia não apenas o público infantil, mas também jovens adultos interessados em tecnologia e inovação. Poderiam ser criadas competições em níveis, desde amador até mais avançado, com foco em velocidade, design ou até em eficiência energética.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="section3" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Inclusão e Acessibilidade</h5>
+                            <p class="card-text">O aspecto inclusivo do projeto é muito importante, e você pode expandir isso desenvolvendo versões dos carrinhos que sejam personalizadas para atender ainda mais necessidades especiais. Além do foco no público com Transtorno do Espectro Autista (TEA), poderiam ser pensados recursos para pessoas com deficiência motora, criando controladores adaptados, como controles de movimento ou sensores que permitam o manuseio com facilidade. Isso garantiria que a experiência fosse realmente acessível a todos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="section4" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Sustentabilidade e Conscientização </h5>
+                            <p class="card-text">A utilização de motores elétricos pode ser uma oportunidade para também educar sobre sustentabilidade e eficiência energética. Você pode incorporar painéis solares ou sistemas de recarga por energia limpa nos stands de apresentação. Uma outra ideia seria criar eventos temáticos que incentivem a redução do impacto ambiental, por exemplo, competições de quem consegue programar o carro mais eficiente em termos de consumo de energia.
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+    </section>
+ 
+
+
+
+
+
+
+
 
     <footer class="container-footer">
         <div class="footer-page">
@@ -154,6 +217,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
+
+            <script src="/JS/global.js"></script>
+
 
 </body>
 
