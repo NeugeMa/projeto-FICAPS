@@ -14,13 +14,15 @@ header {
     padding-top: 30px;
 }
 
-/* --------- */
-/* Conteúdo Contato */
-.container-contato {
+.fundo {
     width: 100vw;
     height: 70vh;
     background-color: #f2f2f2;
-} .contato-banner h1 {
+}
+
+/* --------- */
+/* Conteúdo Contato */
+.contato-banner h1 {
     text-align: center;
     font-size: 7vmin;
     margin-top: 30px;
@@ -72,4 +74,31 @@ header {
 
 .forms-contato .btn-contato:hover {
     background-color: #0056b3;
+}
+
+/* ----------------------------- */
+/* -- CONTEÚDO CURIOSIDADES -- */
+.curiosidades {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.card {
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.card-curiosidade {
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+} 
+
+.hidden {
+    display: none;
+}
+
+.content-section {
+    margin: 20px 0;
 }

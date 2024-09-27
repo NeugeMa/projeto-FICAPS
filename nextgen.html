@@ -47,8 +47,73 @@
         <div class="intro-content">
             <p>O desenvolvimento de jogos é uma área fascinante e criativa que combina programação, design e narrativa. Este projeto, intitulado "NextGen", é um jogo de corrida em estilo "endless runner" semelhante ao famoso Subway Surfers, mas com um toque especial: O jogador assume o controle de um carro de Fórmula E. Utilizando a biblioteca <span class="destaque">Pygame</span>, nosso objetivo é criar uma experiência dinâmica e envolvente que não só entretenha, mas também desafie os jogadores a melhorar suas habilidades. </p>
         </div>
-        
     </section>
+
+    
+
+    <section>
+        <div class="curiosidades">
+            <h4>Aprenda a jogar:</h4>
+                <p>Conheça algumas funcionalidades para jogar!</p>
+
+                <div class="dropdown-container">
+                    <select id="contentDropdown" onchange="switchContent()">
+                        <option value="section0">Selecione para saber!</option>
+                        <option value="section1">Movimentação</option>
+                        <option value="section2">Coleta Pads</option>
+                        <option value="section3">Ativar Boost</option>
+                        <option value="section4">Pausa Jogo</option>
+                    </select>
+                </div>
+
+                <div id="section0" class="content-section"></div>
+            
+                <div id="section1" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                                <h5 class="card-title">Movimentação</h5>
+                                <p class="card-text">Use a tecla ← (seta esquerda) para mover o carro para a esquerda. </p>
+
+                                <p>Use a tecla → (seta direita) para mover o carro para a direita.</p>
+                            </div>
+                    </div>
+                </div>
+
+
+                <div id="section2" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Coleta Pads</h5>
+                            <p class="card-text">Colete pads que aparecem na pista para acumular boosts.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="section3" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Ativar Boost</h5>
+                            <p class="card-text">Pressione a barra de espaço (SPACE) para ativar o boost de velocidade após coletar três pads.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="section4" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Pausar Jogo/ Reiniciar </h5>
+                            <p class="card-text">Pressione a tecla P para pausar o jogo.
+                            </p>
+                            <p>Pressione R para reiniciar o jogo após uma colisão.
+                                Pressione Q para sair do jogo após uma colisão.
+                                </p>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+    </section>
+
+    <div class="fundo">TELA JOGO</div>
 
     <section class="container-contato"> 
         <div class="contato-banner">
@@ -69,6 +134,8 @@
             </div>
         </div>
     </section>
+
+
 
     <footer class="container-footer">
         <div class="footer-page">
