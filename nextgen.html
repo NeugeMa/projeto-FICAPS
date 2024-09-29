@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Chamada CSS -->
+     <link rel="stylesheet" href="/CSS/global.css">
+     <link rel="stylesheet" href="/CSS/nextgen.css">
+ 
+     <!-- Google Fonts  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap" rel="stylesheet">
+ 
+     <title>NextGen | Site Oficial-Ficaps</title>
+ 
+     <!-- Chamada Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img src="/IMG/logo-formulae.png" alt="Logo Fórmula E" class="logo">
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li class="active"><a href="nextgen.html">NextGen</a></li>
+                <li> <a href="/projeto.html">Projeto</a></li>
+                <li class="btn-header"><a href="/Users/login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-content">
+            <h2>Desenvolvimento por @FICAPS</h2>
+            <p>Este projeto é um jogo de corrida estilo Subway Surfers (em desenvolvimento) usando Python com a biblioteca Pygame.</p>
+            <div class="linha"></div>
+            <h1>Corrida de Fórmula E </h1>
+            <div>
+                <a href="#" class="btn-header">Venha Conhecer</a>
+            </div>
+        </div>
+    </header>
+    
+    <section>
+        <div class="intro-content">
+            <p>O desenvolvimento de jogos é uma área fascinante e criativa que combina programação, design e narrativa. Este projeto, intitulado "NextGen", é um jogo de corrida em estilo "endless runner" semelhante ao famoso Subway Surfers, mas com um toque especial: O jogador assume o controle de um carro de Fórmula E. Utilizando a biblioteca <span class="destaque">Pygame</span>, nosso objetivo é criar uma experiência dinâmica e envolvente que não só entretenha, mas também desafie os jogadores a melhorar suas habilidades. </p>
+        </div>
+    </section>
+
+    
+
+    <section>
+        <div class="curiosidades">
+            <h4>Aprenda a jogar:</h4>
+                <p>Conheça algumas funcionalidades para jogar!</p>
+
+                <div class="dropdown-container">
+                    <select id="contentDropdown" onchange="switchContent()">
+                        <option value="section0">Selecione para saber!</option>
+                        <option value="section1">Movimentação</option>
+                        <option value="section2">Coleta Pads</option>
+                        <option value="section3">Ativar Boost</option>
+                        <option value="section4">Pausa Jogo</option>
+                    </select>
+                </div>
+
+                <div id="section0" class="content-section"></div>
+            
+                <div id="section1" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                                <h5 class="card-title">Movimentação</h5>
+                                <p class="card-text">Use a tecla ← (seta esquerda) para mover o carro para a esquerda. </p>
+
+                                <p>Use a tecla → (seta direita) para mover o carro para a direita.</p>
+                            </div>
+                    </div>
+                </div>
+
+
+                <div id="section2" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Coleta Pads</h5>
+                            <p class="card-text">Colete pads que aparecem na pista para acumular boosts.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="section3" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Ativar Boost</h5>
+                            <p class="card-text">Pressione a barra de espaço (SPACE) para ativar o boost de velocidade após coletar três pads.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="section4" class="content-section hidden">
+                    <div class="card">
+                        <div class="card-curiosidade">
+                            <h5  class="card-title">Pausar Jogo/ Reiniciar </h5>
+                            <p class="card-text">Pressione a tecla P para pausar o jogo.
+                            </p>
+                            <p>Pressione R para reiniciar o jogo após uma colisão.
+                                Pressione Q para sair do jogo após uma colisão.
+                                </p>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+    </section>
+
+    <div class="fundo">TELA JOGO</div>
+
+    <section class="container-contato"> 
+        <div class="contato-banner">
+            <div class="texto-contato">
+                <h1>ENTRE EM CONTATO</h1>
+                <h2></h2>
+                <p>Temos prazer em ouvir você! Se você tem alguma dúvida, sugestão ou comentário, sinta-se à vontade para nos enviar uma mensagem.</p>
+                <div class="linha"></div>
+            </div>
+    
+            <div class="forms-contato">
+                <form action="#">
+                    <input type="text" placeholder="Digite seu Nome:" required /> 
+                    <input type="email" placeholder="Digite seu E-mail:" required /> 
+                    <textarea name="message" placeholder="Digite sua mensagem:" cols="30" rows="10" required></textarea>
+                    <button class="btn-contato" type="submit">ENVIE AGORA</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="container-footer">
+        <div class="footer-page">
+            <div class="footer-img">
+                <a href="https://github.com/NeugeMa/projeto-FICAPS">
+                    <img src="/img/github.png" alt="Logo-Github">
+                </a>
+
+                <a href="https://www.linkedin.com/in/neugema/">
+                    <img src="/img/linkedin.png" alt="Logo-Linkedin">
+                </a>
+                </div>
+
+            <div class="footer-links">
+                <a href="criadores.html">SOBRE NÓS</a> | <a href="projeto.html">PROJETO</a> | <a
+                        href="/Users/registro.html">REGISTRO</a>
+            </div>
+
+            <div class="footer-termos">
+                <span>Termos de uso @FICAPS</span>
+            </div>
+        </div>
+    </footer> 
+
+    <!-- Chamada Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/JS/global.js"></script>
+</body>
+</html>

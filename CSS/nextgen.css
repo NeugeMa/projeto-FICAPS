@@ -1,0 +1,104 @@
+header {
+    width: 100vw;
+    height: 80vh;
+    /* background-image: url(/IMG/SVG/fundo.jpg); */ 
+    background-color: grey;
+    background-position: bottom;
+    background-size: cover;
+}
+
+/* --------- */
+/* Conteúdo Introdução + Dicas */
+.intro-content {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.fundo {
+    width: 100vw;
+    height: 70vh;
+    background-color: #f2f2f2;
+}
+
+/* --------- */
+/* Conteúdo Contato */
+.contato-banner h1 {
+    text-align: center;
+    font-size: 7vmin;
+    margin-top: 30px;
+    margin-bottom: 15px;
+} .contato-banner p {
+    text-align: center;
+}
+
+.forms-contato {
+    width: 25%;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forms-contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-contato input,
+.forms-contato textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.forms-contato input:focus,
+.forms-contato textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.forms-contato .btn-contato {
+    padding: 10px 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.forms-contato .btn-contato:hover {
+    background-color: #0056b3;
+}
+
+/* ----------------------------- */
+/* -- CONTEÚDO CURIOSIDADES -- */
+.curiosidades {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.card {
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.card-curiosidade {
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+} 
+
+.hidden {
+    display: none;
+}
+
+.content-section {
+    margin: 20px 0;
+}
