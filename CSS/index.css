@@ -1,4 +1,72 @@
 /* ----------------------------- */
+/* Breakpoint - Tablet */ 
+@media (max-width: 768px) {
+    .projeto-destaque {
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .titulo h1 {
+        font-size: 6vmin;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col img {
+        width: 90%;
+    }
+
+    .col h4 {
+        font-size: 4vmin;
+    }
+
+    .conteudo-principal {
+        height: 60vh;
+    }
+
+    .principal-content {
+        width: 80%;
+        padding: 30px;
+    }
+
+    .principal-content h1 {
+        font-size: 6vmin;
+    }
+
+    .card-pai {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .peculiaridade-carrosel {
+        width: 90%;
+    }
+
+    .curiosidades {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card-curiosidade {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .diferencas {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .diferencas-card {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
 /* -- CONTEÚDO DESTAQUE -- */
 .projeto-destaque {
     width: 80%;
